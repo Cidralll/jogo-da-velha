@@ -1,0 +1,67 @@
+.sectionPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    overflow-y: auto;
+}
+// Start
+.divInfo {
+    width: 20rem;
+    height: 11rem;
+}
+.divInfo p {
+    color: white;
+    font-size: 1.4rem;
+}
+.divInfo input {
+    width: 100%;
+    height: 2rem;
+    border-style: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+.divInfo div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(196, 16, 16);
+    font-weight: 600;
+    font-size: 1.2rem
+}
+
+.buttonStart {
+    width: 10rem;
+    height: 3.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.8rem;
+}
+
+// Choice
+.h1 {
+    font-size: 1.6rem;
+}
+.h2 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.h3 {
+    font-size: 1.6rem;
+}
+.divIcons {
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}

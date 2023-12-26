@@ -1,0 +1,77 @@
+.section {
+    min-height: 100vh;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.divScore {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divScore h1 {
+    font-size: 3rem;
+}
+
+.sectionGame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divGame {
+    margin-top: 1rem;
+    width: 28rem;
+    height: 28rem;
+}
+.divSection {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+.divButton {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divBorderLeaft {
+    border-left: 2px solid black;
+}
+.divBorderBottom {
+    border-bottom: 2px solid black;    
+}
+
+// CONTROLE SE O ICONE APARECE OU NAO 
+.divIconNone {
+    display: none;
+}
+.divIconBlock {
+    display: block;
+}
+
+// section dos botoes
+.sectionButtons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.divButtons {
+    width: 28rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.divButtons button {
+    width: 30%;
+    height: 90%;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
